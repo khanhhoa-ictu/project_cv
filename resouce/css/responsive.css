@@ -1,0 +1,99 @@
+
+@media only screen and (max-width:1024px){
+    .content-right .info .field-separator{
+        width: 72px;
+    }
+    .content-right .field-value::after{
+        bottom:-10px;
+    }
+    #home .slide-content .name{
+       font-size: 52px;
+    }
+    .designation{
+        font-size: 30px;
+    }
+    #about .create-container .create-section-content .content-left p{
+        padding: 0px;
+    }
+    .create-section-content .content-right{
+        padding: 56px 20px;
+    }
+    .content-right .skill-container .skill .skill-title{
+        font-size: 14px;
+    }
+    /*====================achievement=======================*/
+    #achievement{
+        padding: 20px 0px;
+    }
+    .acguevement-container{
+        padding: 50px 100px 45px 30px;
+    }
+    #experence .content-right{
+        padding: 40px 20px;
+    }
+   
+    .content-right .collapsible .collapsible-header{
+        padding: 0px 8px 0px 82px ;
+    }
+    /*====================achievement=======================*/
+
+}
+@media only screen and (max-width:767px){
+    .slider-overlay{
+        flex-direction: column;
+    }
+    #home .img-left{
+        width: 70%;
+        flex:74%;
+    }
+    #home .slide-content{
+        flex:26%;
+    }
+    .create-section-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #about .create-section-content .content-left{
+        display: none;
+    }
+    .create-section-content .content-left{
+        width: 100%;
+    }
+    .create-section-content .content-right{
+        width: 100%;
+    }
+    .create-section-content .link{
+        flex-direction: row;
+       
+    }
+    .create-container .link a{
+        border: 1px solid #f2f2f2;
+    }
+    .tooltips .tooltip-text{
+        opacity: 0;
+        top: 0;
+        left: -22px;
+        transition: all 0.3s ease-in-out;
+    }
+    .tooltips:hover .tooltip-text{
+        opacity: 1;
+        top: -50px;
+        left: -22px;
+        clip-path: none;
+    }
+    #skills .content-left ul{
+       padding-left: 25%;
+    }
+    .section-title{
+        padding-bottom: 40px;
+    }
+    .menu-bottom{
+        display: none;
+    }
+    div.mobi-navigation{
+        display: block;
+    }
+    .acguevement-container {
+        padding: 50px 100px 45px 50px;
+    }
+}

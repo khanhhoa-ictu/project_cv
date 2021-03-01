@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #fff;
+    font-family: ‘Hammersmith One’, sans-serif;
+  }
+  
+  .button button span {
+    opacity: 1;
+  }
+  .button.clicked button {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .popup {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    overflow-y: auto;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 10;
+    background-color: #ffffff;
+    height: 550px;
+    max-width: 500px;
+  }
+  .popup .container {
+    padding: 35px 20px 0px 20px;
+    text-align: center;
+  }
+  .popup .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #3e4146;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  .popup img {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    margin: 30px 0 50px 0;
+    transition: 0.2s;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+  }
+  .active .popup {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
