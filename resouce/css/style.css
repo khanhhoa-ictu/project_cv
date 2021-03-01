@@ -401,6 +401,9 @@ img{
 #carousel .owl-stage .owl-item{
     width: 572px;
 }
+#carousel .item{
+    width: 95%;
+}
 .owl-controls .owl-next{
     top: 50%;
 }
