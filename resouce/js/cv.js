@@ -29,10 +29,12 @@ function resetInterval(){
 nextBtn.addEventListener('click', () => {
     idx++;
     changeImage();
+    resetInterval();
 })
 prevBtn.addEventListener('click', () => {
     idx--;
     changeImage();
+    resetInterval();
 })
 
 function changeImage(){
