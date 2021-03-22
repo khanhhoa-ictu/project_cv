@@ -14,7 +14,7 @@ const prevBtn = document.getElementById('Prev');
 const item = document.querySelectorAll('#carousel .owl-stage');
 
 let idx = 0
-let interval = setInterval(run,2000)
+let interval = setInterval(run,3000)
 
 function run(){
     idx++;
@@ -23,7 +23,7 @@ function run(){
 
 function resetInterval(){
     clearInterval(interval);
-    interval = setInterval(run, 2000);
+    interval = setInterval(run, 3000);
 }
 
 nextBtn.addEventListener('click', () => {
